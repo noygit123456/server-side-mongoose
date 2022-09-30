@@ -1,0 +1,9 @@
+<h1>Welcome!</h1>
+
+<ul>
+    <% allUsers.forEach(function(users) { %>
+        <li>
+            <%= users.name %> - <%=users.phone %>
+        </li>
+        <% }) %>
+</ul>
